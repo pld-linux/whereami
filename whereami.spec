@@ -11,8 +11,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Whereami is a program that allows you to help you figure out where
-your located on servers. it really helps if you are SSHed multiple
+your located on servers. It really helps if you are SSHed multiple
 times.
+
+%description -l pl
+Whereami to program, który pozwala pomóc w odnalezieniu gdzie jeste¶
+zlokalizowany na serwerach. To naprawdê pomaga je¿eli jeste¶
+zalogowany przez SSH wielokrotnie.
 
 %prep
 %setup -q
