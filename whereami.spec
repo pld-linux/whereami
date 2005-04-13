@@ -1,5 +1,5 @@
 Summary:	A simple command that displays your location on a server
-Summary(pl):	Prosty program pokazuj±cy twoj± lokacje na serwerze
+Summary(pl):	Prosty program pokazuj±cy lokacjê u¿ytkownika na serwerze
 Name:		whereami
 Version:	0.1
 Release:	0.1
@@ -16,9 +16,9 @@ your located on servers. It really helps if you are SSHed multiple
 times.
 
 %description -l pl
-Whereami to program, który pozwala pomóc w odnalezieniu gdzie jeste¶
-zlokalizowany na serwerach. To naprawdê pomaga je¿eli jeste¶
-zalogowany przez SSH wielokrotnie.
+Whereami to program, który pozwala pomóc w odnalezieniu gdzie
+u¿ytkownik jest zlokalizowany na serwerach. To naprawdê pomaga w
+przypadku wielokrotego zalogowania przez SSH.
 
 %prep
 %setup -q
