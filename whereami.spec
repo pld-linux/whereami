@@ -1,5 +1,5 @@
 Summary:	A simple command that displays your location on a server
-Summary(pl):	Prosty program pokazuj±cy twoja lokacje na serwerze
+Summary(pl):	Prosty program pokazuj±cy twoj± lokacje na serwerze
 Name:		whereami
 Version:	0.1
 Release:	0.1
@@ -24,22 +24,11 @@ zalogowany przez SSH wielokrotnie.
 %setup -q
 
 %build
-# if ac/am/* rebuilding is necessary, do it in this order and add
-# appropriate BuildRequires
-#%%{__gettextize}
-#%%{__libtoolize}
-#%%{__aclocal}
-#%%{__autoconf}
-#%%{__autoheader}
-#%%{__automake}
-#cp -f /usr/share/automake/config.sub .
 %configure
 %{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
-# create directories if necessary
-#install -d $RPM_BUILD_ROOT
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
@@ -49,5 +38,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS ChangeLog README
+%doc AUTHORS ChangeLog
 %attr(755,root,root) %{_bindir}/*
