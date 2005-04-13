@@ -18,7 +18,7 @@ times.
 %description -l pl
 Whereami to program, który pozwala pomóc w odnalezieniu gdzie
 u¿ytkownik jest zlokalizowany na serwerach. To naprawdê pomaga w
-przypadku wielokrotego zalogowania przez SSH.
+przypadku wielokrotnego zalogowania przez SSH.
 
 %prep
 %setup -q
