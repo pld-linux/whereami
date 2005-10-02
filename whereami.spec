@@ -2,8 +2,8 @@ Summary:	A simple command that displays your location on a server
 Summary(pl):	Prosty program pokazuj±cy lokacjê u¿ytkownika na serwerze
 Name:		whereami
 Version:	0.1
-Release:	0.1
-License:	GPL
+Release:	1
+License:	GPL v2
 Group:		Applications
 Source0:	http://jkcool.com/whereami/%{name}-%{version}.tar.gz
 # Source0-md5:	bac6d761d6d66e07649b6b8ed68b6f81
