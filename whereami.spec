@@ -1,5 +1,5 @@
 Summary:	A simple command that displays your location on a server
-Summary(pl.UTF-8):   Prosty program pokazujący lokację użytkownika na serwerze
+Summary(pl.UTF-8):	Prosty program pokazujący lokację użytkownika na serwerze
 Name:		whereami
 Version:	0.1
 Release:	1
